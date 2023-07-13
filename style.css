@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    background-color: black;
+font-family: "Red Hat Display";
+font-size: 1rem;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding-top: 40px;
+    
+    
+}
+h1{
+    text-align: center;
+}
+p{
+    padding-top: 10px;
+}
+.form-container{
+    background-color:purple;
+    height: 30rem;
+    max-width: 20rem;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px; 
+}
+input, select{
+    padding: 10px;
+    margin: 10px;
+    
+    border-radius: 5px;
+}
+
+.age-column{
+    padding: 10px;
+    margin: 10px;
+    
+    text-align: center;
+
+}
+
+ button{
+    border-radius:10px;
+    padding: 15px;
+    margin: 16px;
+    width: 90%;
+    border: none;
+    font-size: 16px;
+    
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
