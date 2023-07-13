@@ -6,24 +6,25 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <div id="main">
-        <h1 id="title">Survey Form</h1>
+    <div class="main-container">
+        <div class="form-container">
+        <h1 class="survey-title">Survey Form</h1>
         <p id="description">Thank you for taking time to help us improve the platform</p>
         <form id="survey-form">
-          <div>
+          <div class="name-container">
             <label id="name-label" for="Name">Name</label>
             <input id="name" type="text" placeholder="Safari" required/>
           </div>
           
-          <div>
-            <label id="email-label" for="email">E-mail address</label>
+          <div class="email-container">
+            <label id="email-label" for="email">E-mail</label>
             <input id="email" type="email" placeholder="her@example.com" required/>
           </div>
-          <div>
+          <div class="age-container">
             <label id="number-label" for="age"> Age</label>
-            <input id="number" type="number" placeholder="23" min="2" max="90"required/>
+            <input class="age-column" type="number" placeholder="23" min="2" max="90"required/>
           </div>
-          <div>
+          <div class="option-container">
             <label for="best-option">Which option best describes your current role?</label>
             <select id="dropdown" required>
             <option value>Select current role</option>
@@ -32,14 +33,13 @@
             <option value="Full Time Learner">Full Time Learner</option>
             <option value="Prefer not to say">Prefer not to say</option>
             <option value="Other">Other</option>
+            </select>
           </div>
           <div>
-            <p> Would you recommend our survey form  to a friend?</p>
-            <input type="radio" value="1" name="group1">Definitely<br>
-            <input type="radio" value="2" name="group2">Maybe<br>
-            <input type="radio" value="3" name="group3">Not sure</br>
-         </div>
+              <button class="submit-btn">Submit</button>
+          </div>
                          </form>
+        </div>
       </div>
       
 </body>
